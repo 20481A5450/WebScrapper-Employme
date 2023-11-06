@@ -11,18 +11,37 @@ pip install selenium webdriver-manager
 ```
 
 ## Usage
+Here are some corrections to your instructions:
+
+1. You should specify the LinkedIn job search URL directly in your Python script instead of mentioning it in the instructions.
+
+2. You don't run Jupyter Notebook `.ipynb` files directly using the `python` command. Instead, you run Jupyter notebooks within the Jupyter Notebook environment. 
+
+Let's revise the instructions:
 
 1. Clone the repository or download the script.
 
-2. Edit the script to specify your LinkedIn job search URL. You can change the `linkedin_url` variable to the desired URL.
+2. Edit the script to specify your LinkedIn job search URL. You can change the `linkedin_url` variable in the script to the desired URL.
 
-3. Run the script using Python:
+3. Open a terminal or command prompt and navigate to the directory where your Python script is located.
 
-```
-python WebScapping.ipynb
-```
+4. Make sure you have all the necessary packages and dependencies installed. If you haven't installed them, you can install them using `pip`:
 
-The script will open a headless Chrome browser, scrape job data from the LinkedIn page, and save it to a CSV file named `linkedin_jobs.csv`.
+   ```
+   pip install selenium webdriver-manager
+   ```
+
+5. Start a Jupyter Notebook server by running the following command:
+
+   ```
+   jupyter notebook
+   ```
+
+6. In your web browser, open the Jupyter Notebook interface by navigating to the URL provided in the terminal, usually something like `http://localhost:8888`.
+
+7. Use the Jupyter Notebook interface to open your `.ipynb` script. 
+
+8. Run the script from within the Jupyter Notebook.
 
 ## Customization
 
