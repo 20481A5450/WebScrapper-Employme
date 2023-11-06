@@ -10,14 +10,7 @@ Make sure you have Python, Selenium, ChromeDriver, and the Chrome web browser in
 pip install selenium webdriver-manager
 ```
 
-## Usage
-Here are some corrections to your instructions:
-
-1. You should specify the LinkedIn job search URL directly in your Python script instead of mentioning it in the instructions.
-
-2. You don't run Jupyter Notebook `.ipynb` files directly using the `python` command. Instead, you run Jupyter notebooks within the Jupyter Notebook environment. 
-
-Let's revise the instructions:
+## Usage instructions:
 
 1. Clone the repository or download the script.
 
