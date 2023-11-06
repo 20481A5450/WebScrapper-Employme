@@ -19,7 +19,7 @@ pip install selenium webdriver-manager
 3. Run the script using Python:
 
 ```
-python linkedin_job_scraper.py
+python WebScapping.ipynb
 ```
 
 The script will open a headless Chrome browser, scrape job data from the LinkedIn page, and save it to a CSV file named `linkedin_jobs.csv`.
@@ -53,3 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Thanks to the [Selenium](https://selenium.dev/) and [WebDriver Manager](https://github.com/SergeyPirogov/webdriver_manager) teams for their valuable tools.
+
