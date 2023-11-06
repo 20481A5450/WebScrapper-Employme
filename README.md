@@ -43,13 +43,24 @@ Data Scientist,XYZ Corporation,San Francisco,https://www.linkedin.com/jobs/data-
 ...
 ```
 
+## Common Errors
+
+The script may encounter the following common errors:
+
+- **TimeoutError:** This error occurs when the script fails to locate and interact with elements on the web page. It can happen if the structure of the LinkedIn page changes. To fix this, update the CSS selectors used to locate page elements.
+
+- **Connection Refused Error:** This error may occur if there are connection issues or the LinkedIn website is not reachable. Ensure that your internet connection is stable and LinkedIn is accessible.
+
+- **StaleElementReferenceError:** This error occurs when an element that the script interacted with is no longer part of the DOM. It's a known issue when scraping dynamic pages. To handle this, consider using WebDriverWait to wait for elements to become available.
+
 ## Notes
 
 - The script uses a headless Chrome browser to perform web scraping, ensuring that it doesn't open a visible browser window during the process.
+
 - It limits the scraping to the first 100 job postings, but you can adjust this limit as needed by modifying the `job_cards` loop.
 
 Feel free to customize the script for your specific LinkedIn job scraping needs.
 
 ---
 
-You can save the README content to a file named `README.md` and include it in your project repository for clear documentation.
+You can save the README content to a file named `README.md` and include it in your project repository for clear documentation. Be sure to update the README if you encounter additional errors or make significant changes to the script.
