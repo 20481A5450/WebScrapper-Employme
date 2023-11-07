@@ -32,7 +32,7 @@ pip install selenium webdriver-manager
 
 6. In your web browser, open the Jupyter Notebook interface by navigating to the URL provided in the terminal, usually something like `http://localhost:8888`.
 
-7. Use the Jupyter Notebook interface to open your `.ipynb` script. 
+7. Use the Jupyter Notebook interface to open your `linkedinjobspython.ipynb` script. 
 
 8. Run the script from within the Jupyter Notebook.
 
